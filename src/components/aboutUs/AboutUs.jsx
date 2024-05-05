@@ -48,11 +48,14 @@ const AboutUs = () => {
                 <h2 className="md:mx-auto text-center sm:mx-auto md:text-center mb-5 xl:text-[text-3em] text-3xl uppercase font-bold text-[#854782]  sm:text-[40px]/[48px]">
                  Te queremos ver <img src="/src/assets/imgs/florecer/FLORECER.png" className="mx-auto w-[300px] "/>
                 </h2>
-                <p className="mb-5 mx-2 text-[1.5rem] text-balance">
+                <p className="mb-5 mx-2 text-[1.5rem] text-center">
                 Porque somos una empresa comprometida en verte triunfar, nuestro personal cuenta con una amplia trayectoria en el campo del marketing. 
                 </p>
-                <p className="mb-8 mx-2 h-3/2 text-[1.5rem] text-balance">
-                Cada miembro de nuestro equipo aporta una combinación única de experiencia y creatividad, respaldada por años de trabajo en la industria. Desde estrategas de redes sociales hasta expertos en análisis de datos, estamos equipados con las habilidades necesarias para impulsar tu marca hacia el éxito. Tu triunfo es nuestra prioridad, y trabajaremos incansablemente para asegurarnos de que alcances tus metas y superes tus expectativas en el mundo digital. 
+                <p className="mb-8 mx-2 h-3/2 text-[1.5rem] text-center">
+                Cada miembro de nuestro equipo aporta una combinación única de experiencia y creatividad, respaldada por años de trabajo en la industria. Desde estrategas de redes sociales hasta expertos en análisis de datos, estamos equipados con las habilidades necesarias para impulsar tu marca hacia el éxito. 
+                </p>
+                <p className="mb-8 mx-2 h-3/2 text-[1.5rem] text-center">
+                Tu triunfo es nuestra prioridad, y trabajaremos incansablemente para asegurarnos de que alcances tus metas y superes tus expectativas en el mundo digital. 
                 </p>
 
               </div>

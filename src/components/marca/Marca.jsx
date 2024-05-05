@@ -6,18 +6,18 @@ const Marca = () => {
     <section>
       <div className="mx-auto max-w-screen-xl  py-8 sm:px-6 sm:py-12 lg:px-8">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-          <div className="grid place-content-center rounded bg-[#854782] p-6 sm:p-8">
+          <div className="grid place-content-center text-center rounded bg-[#854782] p-6 sm:p-8">
             <div className="mx-auto max-w-md text-center lg:text-left">
               <header
                 data-aos="fade-up"
                 data-aos-duration="1500"
                 data-aos-anchor-placement="center-bottom"
               >
-                <h2 className="text-xl font-bold text-white sm:text-3xl">
+                <h2 className="text-4xl font-bold text-center text-white sm:text-3xl">
                   ¡Desata el poder de tu marca en el mundo digital con nosotros!
                 </h2>
 
-                <p className="mt-3 text-gray-300">
+                <p className="mt-3 text-gray-300 text-center text-2xl">
                   En Blooming Ideas, no solo creamos contenido, ¡creamos
                   impacto!
                 </p>
@@ -50,7 +50,7 @@ const Marca = () => {
                   </video>
              
                   <div className="mt-1">
-                    <p className="text-md text-gray-900 ">
+                    <p className="text-xl text-center text-gray-900 ">
                       Nuestro compromiso es claro: ofrecerte soluciones
                       creativas y resultados tangibles que impulsen tu
                       crecimiento. No solo hablamos de números, ¡los generamos!
@@ -81,7 +81,7 @@ const Marca = () => {
                   </video>
 
                   <div className="mt-1">
-                    <p className="text-md text-gray-900">
+                    <p className="text-xl text-center text-gray-900">
                       Estamos comprometidos en ofrecer soluciones innovadoras y
                       resultados medibles que impulsen tu crecimiento
                     </p>

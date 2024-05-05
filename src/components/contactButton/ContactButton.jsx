@@ -1,5 +1,4 @@
 
-import Whatsapp from "./whatsapp.svg";
 
 const ContactButton = () => {
   return (

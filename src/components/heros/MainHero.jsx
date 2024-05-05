@@ -1,7 +1,7 @@
 const MainHero = () => {
   return (
     <section
-      className="main_hero bg-no-repeat object-right  "
+      className="main_hero bg-no-repeat object-right h-full  "
       id="Inicio"
     >
       <div className="mx-auto max-w-screen-xl px-4 py-32 sm:px-6  lg:flex  lg:items-center lg:px-8">
@@ -18,12 +18,12 @@ const MainHero = () => {
             </strong>
           </h1>
 
-          <p className="mt-4 xl:max-w-xl sm:text-xl xl:text-start text-3xl">
+          <p className="mt-4 text-start text-xl">
             Ya sea que estés comenzando desde cero o que estés buscando
             expandirte en el mercado digital, estamos aquí para ayudarte en cada
             paso del camino.
           </p>
-          <p className="mt-4 xl:max-w-xl sm:text-xl text-start text-3xl">
+          <p className="mt-4  text-start text-xl">
             Desde pequeñas empresas hasta corporaciones multinacionales,
             adaptamos nuestras estrategias para satisfacer las necesidades
             únicas de tu negocio. Nuestra versatilidad nos permite ofrecer desde

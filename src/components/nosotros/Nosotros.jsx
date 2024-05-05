@@ -7,20 +7,16 @@ const Nosotros = () => {
     data-aos-duration="1200"
     data-aos-anchor-placement="center-bottom">
             <div className="p-8 sm:p-16 lg:p-24">
-              <h2 className="md:text-[4em] text-3xl text-balance text-[#854782] font-bold mt-6">
+              <h2 className="md:text-[4em] text-4xl py-2 text-center text-[#854782] font-bold mt-6">
                 Sobre Nosotros
               </h2>
 
-              <p className="mt-4 text-balance">
-                Somos una empresa de marketing fundada en 2020. Nuestro objetivo
-                es ofrecer soluciones creativas y efectivas para impulsar la
-                presencia en línea de nuestros clientes.
+              <p className="mt- text-center text-2xl">
+               
+Desde nuestra fundación en 2020, nuestra empresa de marketing se ha dedicado a proporcionar soluciones creativas y efectivas para potenciar la presencia en línea de nuestros clientes. Nos especializamos en estrategias digitales y en maximizar el impacto de las redes sociales para impulsar el éxito de las marcas que confían en nosotros.
               </p>
-              <p className="mt-4 text-balance">
-                Con un enfoque en redes sociales y estrategias digitales,
-                estamos comprometidos a ayudar a nuestros clientes a alcanzar
-                sus metas de marketing de manera innovadora y orientada al
-                resultado.
+              <p className=" text-center text-2xl">
+              Nos enorgullece ofrecer un enfoque innovador y orientado a resultados en todas nuestras iniciativas. Creemos firmemente en la importancia de adaptarnos constantemente a las tendencias del mercado y a las nuevas tecnologías para asegurarnos de que nuestras estrategias sean siempre relevantes y eficaces.
               </p>
 
              
@@ -38,10 +34,10 @@ const Nosotros = () => {
                 />
 
                 <div className="mt-3">
-                  <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
-                    Ms. Andrea Alvarenga
+                  <h3 className="uppercase text-center text-3xl text-[#85478] ">
+                  El rostro detrás de Blooming Ideas
                   </h3>
-<p>Ella es la mente detrás de Blooming Ideas, una figura fundamental que te respaldará en la mejora de tu negocio. Su compromiso con la excelencia y su capacidad para generar ideas frescas y creativas hacen de ella un recurso invaluable para cualquier emprendedor o empresario que busque llevar su negocio al siguiente nivel. 
+<p className="text-center text-2xl">Una figura fundamental que te respaldará en la mejora de tu negocio. Su compromiso con la excelencia y su capacidad para generar ideas frescas y creativas hacen de ella un recurso invaluable para cualquier emprendedor o empresario que busque llevar su negocio al siguiente nivel. 
 </p>
 
 

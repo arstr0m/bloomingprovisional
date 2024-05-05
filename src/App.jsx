@@ -36,8 +36,12 @@ function App() {
               todas tus plataformas digitales.-sm
             </p>
 
-            
+            <div className="flex flex-wrap justify-center gap-7">
+            <button className="rounded-xl">Contacto</button>
+            <button className="rounded-xl bg-transparent border border-[#854782] text-[#854782]">Aprender Más</button>
           </div>
+          </div>
+        
         </div>
       </section>
       <Nosotros />
@@ -69,7 +73,7 @@ function App() {
 
       <ContactForm/>
 
-      <ContactButton />
+   
       <Footer></Footer>
     </>
   );
