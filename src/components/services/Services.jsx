@@ -3,7 +3,7 @@ import Title from "../titles/Title.jsx";
 const Services = () => {
   return (
     <section id="Servicios">
-      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+      <div className="mx-auto max-w-screen-xl  py-8  sm:py-12">
         <header className="text-center">
          <Title Titulo="Nuestros Servicios">
 
@@ -17,16 +17,16 @@ const Services = () => {
         <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
           <li>
             <div className="group relative block"  data-aos="fade-left"
-        data-aos-duration="1400"
+        data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_analisis.jpg"
-                alt="Analisis de datos"
+                src="/src/assets/imgs/bloom_servicios/ser_analisis.webp"
+                alt="Personas analizando información de un conjunto de papeles"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />
 
               <div className="absolute inset-0 flex flex-col items-start justify-end   p-6">
-                <h3 className="text-4xl font-medium text-white ">
+                <h3 className="text-4xl font-medium text-black ">
                 Analisis de Datos
                 </h3>
               
@@ -36,11 +36,11 @@ const Services = () => {
           </li>
           <li>
             <div className="group relative block"  data-aos="fade-left"
-        data-aos-duration="1500"
+        data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_foto.jpg"
-                alt=""
+                src="/src/assets/imgs/bloom_servicios/ser_foto.webp"
+                alt="Persona tomando una foto con una camara profesional"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />
 
@@ -55,11 +55,11 @@ const Services = () => {
 
           <li>
             <div  className="group relative block"  data-aos="fade-left"
-        data-aos-duration="1500"
+        data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_mail.jpg"
-                alt="Analisis de datos"
+                src="/src/assets/imgs/bloom_servicios/ser_mail.webp"
+                alt="Imagen de persona administrando un correo electronico"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />
 
@@ -74,11 +74,11 @@ const Services = () => {
           </li>
           <li>
             <div className="group relative block" data-aos="fade-up"
-        data-aos-duration="1400"
+        data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_web.jpg"
-                alt=""
+                src="/src/assets/imgs/bloom_servicios/ser_web.webp"
+                alt="Imagen de un setup de desarrollo web"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />
 
@@ -93,11 +93,11 @@ const Services = () => {
           </li>
           <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
             <div className="group relative block"  data-aos="fade-up"
-        data-aos-duration="1400"
+        data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_social.jpg"
-                alt=""
+                src="/src/assets/imgs/bloom_servicios/ser_social.webp"
+                alt="Imagen de persona gestionando una red social"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />
 
@@ -111,11 +111,11 @@ const Services = () => {
           </li>
           <li className="lg:col-span-2 lg:col-start-1 lg:row-span-2 lg:row-start-3">
             <div className="group relative block"  data-aos="fade-up"
-        data-aos-duration="1500"
+        data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_plan.jpg"
-                alt=""
+                src="/src/assets/imgs/bloom_servicios/ser_plan.webp"
+                alt="Imagen que muestra un hombre haciendo un plan de marketing"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />
 

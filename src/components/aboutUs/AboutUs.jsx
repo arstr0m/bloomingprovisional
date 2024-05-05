@@ -1,4 +1,3 @@
-import React from "react";
 
 const AboutUs = () => {
   return (
@@ -13,14 +12,14 @@ const AboutUs = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
+                      src="/public/abouts/about_2.webp"
                       alt=""
                       className="w-full rounded-3xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                      src="/public/abouts/about_1.webp"
                       alt=""
                       className="w-full rounded-3xl"
                     />
@@ -29,9 +28,9 @@ const AboutUs = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className=" my-4">
                     <img
-                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
+                      src="/public/abouts/about_3.webp"
                       alt=""
-                      className="w-full rrounded-3xl"
+                      className="w-full rounded-3xl"
                     />
                    
                   </div>
@@ -39,20 +38,20 @@ const AboutUs = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="mt-10 lg:mt-0"    data-aos="fade-left"
+            <div className="w-full px-4 lg:w-1/2 xl:w-5/12 md:mx-auto">
+              <div className="mt-10 lg:mt-0 md:justify-center md:text-center md:mx-auto"    data-aos="fade-left"
         data-aos-duration="1300"
         data-aos-anchor-placement="center-bottom">
-                <span className="block mb-4 text-[5rem] font-semibold text-[#854782] ">
+                <span className="block mb-4 text-center sm:mx-auto xl:text-[4em] md:text-center md:mx-auto text-4xl font-semibold text-[#854782] ">
                   Porque nosotros
                 </span>
-                <h2 className="mb-5 text-3xl uppercase font-bold text-[#854782]  sm:text-[40px]/[48px]">
-                 Te queremos ver <img src="/src/assets/imgs/florecer/FLORECER.png" className="mx-2 w-[300px] "/>
+                <h2 className="md:mx-auto text-center sm:mx-auto md:text-center mb-5 xl:text-[text-3em] text-3xl uppercase font-bold text-[#854782]  sm:text-[40px]/[48px]">
+                 Te queremos ver <img src="/src/assets/imgs/florecer/FLORECER.png" className="mx-auto w-[300px] "/>
                 </h2>
-                <p className="mb-5 text-[1.5rem] text-balance">
+                <p className="mb-5 mx-2 text-[1.5rem] text-balance">
                 Porque somos una empresa comprometida en verte triunfar, nuestro personal cuenta con una amplia trayectoria en el campo del marketing. 
                 </p>
-                <p className="mb-8 text-[1.5rem] text-balance">
+                <p className="mb-8 mx-2 h-3/2 text-[1.5rem] text-balance">
                 Cada miembro de nuestro equipo aporta una combinación única de experiencia y creatividad, respaldada por años de trabajo en la industria. Desde estrategas de redes sociales hasta expertos en análisis de datos, estamos equipados con las habilidades necesarias para impulsar tu marca hacia el éxito. Tu triunfo es nuestra prioridad, y trabajaremos incansablemente para asegurarnos de que alcances tus metas y superes tus expectativas en el mundo digital. 
                 </p>
 

@@ -9,20 +9,20 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'sansumi';
-  src: url('/src/assets/fonts/sansumi/Sansumi-DemiBold.ttf') format('truetype')
+  font-family: "sansumi";
+  src: url("/src/assets/fonts/sansumi/Sansumi-DemiBold.ttf") format("truetype");
 }
 :root {
   --color-acento: #854782;
   --color-contrario: #ec692d;
-  --color-fondo: rgb(21, 20, 20); 
-  --color-base: #CD9DDC;
+  --color-fondo: rgb(21, 20, 20);
+  --color-base: #cd9ddc;
 }
 html {
   font-size: 62.5%;
 }
-.hero{
-  background-image: url("src/assets/imgs/heros/mainHero.png");
+.hero {
+  background-image: url("src/assets/imgs/heros/mainHero.webp");
 }
 @keyframes logo-spin {
   from {
@@ -37,25 +37,24 @@ html {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-  click:hover{
+  click:hover {
     filter: drop-shadow(0 0 2em var(--color-acento));
   }
 }
 
 body {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   line-height: 2rem;
   margin: 0 auto;
-  font-family: 'sansumi';
+  font-family: "sansumi";
   color: #854782;
- background-color: #f1e9ee;
+  background-color: #f1e9ee;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
     /*color: #d1c2d1;*/
     /*background: #2A2A2A;*/
-  
   }
 }
 @media (max-width: 684px) {
@@ -68,15 +67,27 @@ body {
     font-size: 1.35rem;
   }
 }
-.main_hero{
-  background-image: url("src/assets/imgs/main_hero/HERO3.png");
+.main_hero {
   max-width: 100vw;
   height: 100vh;
+  background-image: url("src/assets/imgs/main_hero/HERO3.png");
   background-size: cover;
-  background-position: center center;
-
+  background-position: center left;
 }
-h1, h2, h3, h4, h5, h6 {
+@media only screen and (min-width: 769px) {
+  .main_hero {
+    
+    background-position: center center;
+  }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.1;
   font-weight: 700;
   margin-top: 3rem;
@@ -116,15 +127,15 @@ p {
   margin-bottom: 2.5rem;
 }
 
-small, sub, sup {
+small,
+sub,
+sup {
   font-size: 75%;
 }
 
 hr {
   border-color: #1d7484;
 }
-
-
 
 ul {
   padding-left: 1.4em;
@@ -152,7 +163,8 @@ blockquote p {
   margin-bottom: 0;
 }
 
-img, video {
+img,
+video {
   height: auto;
   max-width: 100%;
   margin-top: 0px;
@@ -170,7 +182,9 @@ pre {
   font-size: 0.9em;
 }
 
-code, kbd, samp {
+code,
+kbd,
+samp {
   font-size: 0.9em;
   padding: 0 0.5em;
   background-color: #f1f1f1;
@@ -192,16 +206,19 @@ table {
   margin-bottom: 2rem;
 }
 
-td, th {
+td,
+th {
   padding: 0.5em;
   border-bottom: 1px solid #f1f1f1;
 }
 
 /* Buttons, forms and input */
-input, textarea {
+input,
+textarea {
   border: 1px solid #4a4a4a;
 }
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border: 1px solid #1d7484;
 }
 
@@ -209,7 +226,12 @@ textarea {
   width: 100%;
 }
 
-.button, button, input[type=submit], input[type=reset], input[type=button], input[type=file]::file-selector-button {
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="file"]::file-selector-button {
   display: inline-block;
   padding: 2rem;
   text-align: center;
@@ -220,21 +242,38 @@ textarea {
   cursor: pointer;
   box-sizing: border-box;
 }
-.button[disabled], button[disabled], input[type=submit][disabled], input[type=reset][disabled], input[type=button][disabled], input[type=file]::file-selector-button[disabled] {
+.button[disabled],
+button[disabled],
+input[type="submit"][disabled],
+input[type="reset"][disabled],
+input[type="button"][disabled],
+input[type="file"]::file-selector-button[disabled] {
   cursor: default;
   opacity: 0.5;
 }
-.button:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, input[type=file]::file-selector-button:hover {
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+input[type="file"]::file-selector-button:hover {
   background-color: #982c61;
   color: #f9f9f9;
   outline: 0;
 }
-.button:focus-visible, button:focus-visible, input[type=submit]:focus-visible, input[type=reset]:focus-visible, input[type=button]:focus-visible, input[type=file]::file-selector-button:focus-visible {
+.button:focus-visible,
+button:focus-visible,
+input[type="submit"]:focus-visible,
+input[type="reset"]:focus-visible,
+input[type="button"]:focus-visible,
+input[type="file"]::file-selector-button:focus-visible {
   outline-style: solid;
   outline-width: 2px;
 }
 
-textarea, select, input {
+textarea,
+select,
+input {
   color: #450434;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
@@ -244,16 +283,20 @@ textarea, select, input {
   box-shadow: none;
   box-sizing: border-box;
 }
-textarea:focus, select:focus, input:focus {
+textarea:focus,
+select:focus,
+input:focus {
   border: 1px solid #580456;
   outline: 0;
 }
 
-input[type=checkbox]:focus {
+input[type="checkbox"]:focus {
   outline: 1px dotted #1d7484;
 }
 
-label, legend, fieldset {
+label,
+legend,
+fieldset {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 600;

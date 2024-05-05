@@ -31,14 +31,7 @@ const MainNavbar = () => {
       </div>
 
       <div className="flex items-center gap-4">
-        <div className="sm:flex sm:gap-4">
-          <a
-            className="rounded-md bg-purple-600 px-5 py-2.5 text-sm font-medium text-white shadow"
-            href="#"
-          >
-            Oferta Especial
-          </a>
-        </div>
+        
 
         <div className="block md:hidden">
           <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">

@@ -1,13 +1,13 @@
 const Nosotros = () => {
   return (
-    <section className=" bg-neutral-200 "  >
+    <section className=" bg-neutral-200 "  id="Nosotros">
       <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8 ">
         <div className="grid grid-cols-1  lg:grid-cols-2">
           <div className="relative flex items-center my-auto" data-aos="fade-down"
     data-aos-duration="1200"
     data-aos-anchor-placement="center-bottom">
             <div className="p-8 sm:p-16 lg:p-24">
-              <h2 className="text-[5em] text-[#854782] font-bold mt-6">
+              <h2 className="md:text-[4em] text-3xl text-balance text-[#854782] font-bold mt-6">
                 Sobre Nosotros
               </h2>
 
@@ -27,12 +27,12 @@ const Nosotros = () => {
             </div>
           </div>
           <div className=" z-5 lg:py-16">
-            <div className="h-64 sm:h-80 lg:h-full" data-aos="fade-up"
+            <div className="h-full" data-aos="fade-up"
     data-aos-duration="1200"
     data-aos-anchor-placement="center-bottom">
               <a href="https://www.instagram.com/bloomingideashn?igsh=ZmExaWdvNDFvazk=" className="group block">
                 <img
-                  src="/public/Profile/main.jpeg"
+                  src="/public/Profile/main.webp"
                   alt=""
                   className="h-[500px] aspect-square w-full rounded object-contain"
                 />

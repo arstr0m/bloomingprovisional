@@ -11,10 +11,16 @@ const VideoPortada = () => {
               data-aos-duration="1400"
               data-aos-anchor-placement="center-bottom"
             >
-              <video
-                src={VideoExito}
-                className="absolute inset-0 h-full w-full object-cover"
-              />
+                <video
+                    autoPlay
+                    muted
+                    loop
+                    className="absolute h-full  object-cover aspect-square w-full rounded object-covet"
+                  >
+                    <source src={VideoExito} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+             
             </div>
 
             <div
@@ -31,11 +37,9 @@ const VideoPortada = () => {
                 En Blooming Ideas, no solo tenemos objetivos, ¡tenemos una
                 misión! Estamos aquí para llevar tu presencia digital a nuevas
                 alturas, aumentar tu visibilidad en cada rincón de la web y
-                atraer a clientes potenciales como nunca antes.
+                atraer a clientes potenciales como nunca antes. Ya sea para:
               </p>
-              <span className="text-[3rem] font-bold uppercase my-2 sm:text-4xl">
-                Ya sea
-              </span>
+  
               <ul>
                 <li>Incrementar tu presencia digital</li>
                 <li>Aumentar tu visibilidad en tus plataformas dgitales</li>
