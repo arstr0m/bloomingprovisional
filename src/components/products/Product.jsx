@@ -1,4 +1,4 @@
-const Product = ({ Imagen, Nombre, Descripcion, Precio }) => {
+const Product = ({ Imagen, Nombre, Descripcion, Precio, }) => {
   return (
     <>
       <div className="group relative block overflow-hidden" data-aos="fade-up"
@@ -7,7 +7,7 @@ const Product = ({ Imagen, Nombre, Descripcion, Precio }) => {
       
         <img
           src={Imagen}
-          alt=""
+          alt={"Imagen de caratula de" + Nombre}
           className="h-64 w-full mx-auto object-cover transition duration-500 group-hover:scale-105 sm:h-72"
         />
 
