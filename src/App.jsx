@@ -11,7 +11,7 @@ import VideoPortada from "./components/Video/VideoPortada.jsx";
 import Product from "./components/products/Product.jsx";
 import Nosotros from "./components/nosotros/Nosotros.jsx";
 import ContactForm from "./components/forms/ContactForm.jsx";
-import 'index.css'
+import './src/App.css'
 import LearnMoreModal from "./components/learnMoreModal/LearnMoreModal.jsx";
 
 function App() {
