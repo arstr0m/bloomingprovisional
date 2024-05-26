@@ -1,4 +1,4 @@
-import VideoExito from "/assets/videos/exito/exito.mp4";
+
 const VideoPortada = () => {
   return (
     <>
@@ -17,7 +17,7 @@ const VideoPortada = () => {
                 loop
                 className="absolute h-full  object-cover aspect-square w-full rounded object-covet"
               >
-                <source src={VideoExito} type="video/mp4" />
+                <source src="/assets/videos/exito/exito.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
