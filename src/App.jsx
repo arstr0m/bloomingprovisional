@@ -27,13 +27,13 @@ function App() {
           data-aos-anchor-placement="center-bottom"
           className="backdrop-blur-sm mx-auto py-32 lg:flex flex-col my-auto items-center justify-center lg:h-screen lg:items-center"
         >
-          <div className="my-auto mx-auto max-w-4xl text-center ">
-            <h1 className="animate-pulse bg-gradient-to-r from-[#854782] via-[#b156ac] to-orange-400 bg-clip-text text-[4rem] font-extrabold text-transparent text-balance">
+          <div className=" mt-6 mx-auto max-w-4xl text-center ">
+            <h1 className="animate-pulse bg-gradient-to-r from-[#854782] via-[#b156ac] to-orange-400 bg-clip-text text-3xl font-extrabold text-transparent text-balance">
               ¡Aumenta tu presencia digital!
               <span className="sm:block my-2"> Atrae más clientes. </span>
             </h1>
 
-            <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed text-black text-xl">
+            <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed text-black text-md">
               Desde la creación de contenido cautivador hasta la gestión de
               campañas estratégicas, nos dedicamos a potenciar tu presencia en
               todas tus plataformas digitales.
@@ -74,7 +74,7 @@ function App() {
       <Title Titulo="Nuestros Paquetes"></Title>
 
       <section
-        className="w-4/5 mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
+        className="w-1/2 my-4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-8"
         id="Paquetes"
       >
         {Object.values(Servicios_Productos).map((servicio, index) => (
@@ -101,7 +101,7 @@ function App() {
             className="group block"
           >
             <img
-              src="/src/assets/Profile/main.webp"
+              src="/assets/Profile/main.webp"
               alt=""
               className="h-[400px] aspect-square w-full rounded object-contain"
             />

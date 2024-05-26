@@ -1,7 +1,7 @@
 const NavLinks = ({classes}) => {
   return (
     <>
-      <ul className={`flex items-center align-middle justify-center gap-4 ${classes}`}>
+      <ul className={`flex text-sm items-center align-middle justify-center gap-4 ${classes}`}>
         <a href="#Inicio">
           {" "}
           <li className="cursor-pointer hover:animate-pulse">Inicio</li>{" "}

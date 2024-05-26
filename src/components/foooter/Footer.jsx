@@ -11,7 +11,7 @@ const Footer = () => {
             <img
               className="w-[10em] my-4"
               alt="Logo de la empresa Blooming Ideas, una mezcla de bombilla y flor de loto."
-              src="src/assets/logos/bloomingversion1.png"
+              src="imgs/imgs/logos/bloomingversion1.png"
             ></img>
           </div>
 

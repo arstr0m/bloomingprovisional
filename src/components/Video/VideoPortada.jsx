@@ -28,18 +28,18 @@ const VideoPortada = () => {
               data-aos-duration="1400"
               data-aos-anchor-placement="center-bottom"
             >
-              <h2 className="text-[3rem] font-bold uppercase sm:text-4xl">
+              <h2 className="text-2xl font-bold uppercase sm:text-4xl">
                 Queremos verte triunfar
               </h2>
 
-              <p className="mt-4">
+              <p className="mt-4 text-md">
                 En Blooming Ideas, no solo tenemos objetivos, ¡tenemos una
                 misión! Estamos aquí para llevar tu presencia digital a nuevas
                 alturas, aumentar tu visibilidad en cada rincón de la web y
                 atraer a clientes potenciales como nunca antes. Ya sea para:
               </p>
 
-              <ul className="list-disc pl-6">
+              <ul className="list-disc pl-6 text-md">
                 <li>Incrementar tu presencia digital</li>
                 <li>Aumentar tu visibilidad en tus plataformas digitales</li>
                 <li>Atracción de clientes</li>

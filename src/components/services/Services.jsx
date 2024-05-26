@@ -9,7 +9,7 @@ const Services = () => {
 
          </Title>
 
-          <p className="mx-auto mt-4 text-xl  text-purple-900">
+          <p className="mx-auto mt-4 text-xl">
           Con nuestra combinación de servicios, llevamos tu presencia digital al siguiente nivel, asegurando que tu marca se destaque y se mantenga en la mente de tu audiencia. 
           </p>
         </header>
@@ -20,13 +20,13 @@ const Services = () => {
         data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_analisis.webp"
+                src="/assets/imgs/bloom_servicios/ser_analisis.webp"
                 alt="Personas analizando información de un conjunto de papeles"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />
 
               <div className="absolute inset-0 flex flex-col items-start justify-end   p-6">
-                <h3 className="text-4xl font-medium text-black ">
+                <h3 className="text-4xl font-medium text-white ">
                 Analisis de Datos
                 </h3>
               
@@ -39,7 +39,7 @@ const Services = () => {
         data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_foto.webp"
+                src="/assets/imgs/bloom_servicios/ser_foto.webp"
                 alt="Persona tomando una foto con una camara profesional"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />
@@ -58,7 +58,7 @@ const Services = () => {
         data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_mail.webp"
+                src="/assets/imgs/bloom_servicios/ser_mail.webp"
                 alt="Imagen de persona administrando un correo electronico"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />
@@ -77,7 +77,7 @@ const Services = () => {
         data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_web.webp"
+                src="/assets/imgs/bloom_servicios/ser_web.webp"
                 alt="Imagen de un setup de desarrollo web"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />
@@ -96,7 +96,7 @@ const Services = () => {
         data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_social.webp"
+                src="/assets/imgs/bloom_servicios/ser_social.webp"
                 alt="Imagen de persona gestionando una red social"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />
@@ -114,7 +114,7 @@ const Services = () => {
         data-aos-duration="1200"
         data-aos-anchor-placement="center-bottom">
               <img
-                src="/src/assets/imgs/bloom_servicios/ser_plan.webp"
+                src="/assets/imgs/bloom_servicios/ser_plan.webp"
                 alt="Imagen que muestra un hombre haciendo un plan de marketing"
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />

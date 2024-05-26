@@ -7,15 +7,15 @@ const Nosotros = () => {
     data-aos-duration="1200"
     data-aos-anchor-placement="center-bottom">
            
-              <h2 className="md:text-[4em] text-4xl py-2 text-center text-[#854782] font-bold mt-6">
+              <h2 className="text-3xl py-2 text-center text-[#854782] font-bold mt-6">
                 Sobre Nosotros
               </h2>
 
-              <p className="mt-16 text-center text-2xl">
+              <p className="mt-16 text-center text-md">
                
 Desde nuestra fundación en 2020, nuestra empresa de marketing se ha dedicado a proporcionar soluciones creativas y efectivas para potenciar la presencia en línea de nuestros clientes. Nos especializamos en estrategias digitales y en maximizar el impacto de las redes sociales para impulsar el éxito de las marcas que confían en nosotros.
               </p>
-              <p className=" text-center text-2xl">
+              <p className=" text-center text-md">
               Nos enorgullece ofrecer un enfoque innovador y orientado a resultados en todas nuestras iniciativas. Creemos firmemente en la importancia de adaptarnos constantemente a las tendencias del mercado y a las nuevas tecnologías para asegurarnos de que nuestras estrategias sean siempre relevantes y eficaces.
               </p>
 
