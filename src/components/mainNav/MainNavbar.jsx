@@ -3,10 +3,10 @@ import React, { useState } from "react";
 const MainNavbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="bg-white fixed w-full z-10 py-2">
-      <div className="mx-auto max-w-screen-xl items-center align-middle text-xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center align-middle justify-between">
-          <div className="md:flex md:items-center md:gap-12">
+    <header className="bg-white fixed w-full z-10 py-4 items-center">
+      <div className="mx-auto max-w-screen-xl items-center align-middle text-xl ">
+        <div className="flex h-16 items-center align-middle justify-center">
+          <div className="md:flex md:items-center md:gap-12 flex-1">
             <a className="block text-teal-600" href="#">
               <span className="sr-only">Home</span>
               <img
@@ -16,13 +16,13 @@ const MainNavbar = () => {
             </a>
           </div>
 
-          <div className="hidden md:block" id="links">
-            <nav aria-label="Global">
-              <NavLinks />
+          <div className="hidden md:block my-auto align-middle" id="links">
+            <nav aria-label="Global" className="my-auto justify-center">
+              <NavLinks classes=" flex-wrap gap-[2px] justify-around space-x-[1rem] uppercase my-auto" />
             </nav>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 mx-4">
             <div className="block md:hidden">
               <button
                 onClick={() => setShowMenu(!showMenu)}
@@ -43,17 +43,18 @@ const MainNavbar = () => {
                   />
                 </svg>
               </button>
-              {showMenu && <p>Hola</p>}
+              {showMenu && (
+                <div className="fixed inset-0 z-50 bg-neutral-200 h-screen flex flex-col m-auto justify-center items-center align-middle">
+                  <button
+                    className="h-1 w-1 fixed right-4 top-4 flex items-center justify-center rounded-2xl"
+                    onClick={() => setShowMenu(false)}
+                  >
+                    X
+                  </button>
+                  <NavLinks classes="flex-col " />
+                </div>
+              )}
             </div>
-          </div>
-          <div className="hidden md:block" id="asistencia">
-            <a
-              href="https://wa.me/+50431597965"
-              className="bg-[#854782] text-white py-2 px-1 rounded-lg"
-            >
-              {" "}
-              Solicitar asesoría
-            </a>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const Services = () => {
 
          </Title>
 
-          <p className="mx-auto mt-4   text-purple-900">
+          <p className="mx-auto mt-4 text-xl  text-purple-900">
           Con nuestra combinación de servicios, llevamos tu presencia digital al siguiente nivel, asegurando que tu marca se destaque y se mantenga en la mente de tu audiencia. 
           </p>
         </header>

@@ -4,7 +4,7 @@ import ImpactoNecesario from "/public/videos/impacto/impacto.mp4";
 const Marca = () => {
   return (
     <section>
-      <div className="mx-auto max-w-screen-xl  py-8 sm:px-6 sm:py-12 lg:px-8">
+      <div className="mx-auto max-w-screen-xl  py-8 sm:py-12 lg:px-8">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
           <div className="grid place-content-center text-center rounded bg-[#854782] p-6 sm:p-8">
             <div className="mx-auto max-w-md text-center lg:text-left">
@@ -31,10 +31,10 @@ const Marca = () => {
             data-aos-duration="1500"
             data-aos-anchor-placement="center-bottom"
           >
-            <ul className="grid grid-cols-1 xl:grid-cols-2 gap-2">
-              <li className="container mx-2">
+            <ul className="grid justify-center items-center grid-cols-1 xl:grid-cols-2 mx-auto">
+              <li className="mx-2">
                 <div
-                  className="group mx-auto"
+                  className=" mx-4"
                   data-aos="fade-up"
                   data-aos-duration="1500"
                   data-aos-anchor-placement="center-bottom"
@@ -50,7 +50,7 @@ const Marca = () => {
                   </video>
              
                   <div className="mt-1">
-                    <p className="text-xl text-center text-gray-900 ">
+                    <p className="text-xl text-center text-gray-900 mx-auto">
                       Nuestro compromiso es claro: ofrecerte soluciones
                       creativas y resultados tangibles que impulsen tu
                       crecimiento. No solo hablamos de números, ¡los generamos!

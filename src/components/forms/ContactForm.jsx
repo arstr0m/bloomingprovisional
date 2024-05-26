@@ -27,7 +27,7 @@ const ContactForm = () => {
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
             <div className="lg:col-span-2 lg:py-12">
-              <p className="max-w-xl text-lg text-balance">
+              <p className="max-w-xl text-xl text-balance">
               Estamos profundamente comprometidos en ofrecerte el mejor servicio posible en cada paso del camino. Tu satisfacción es nuestra máxima prioridad, y estamos aquí para responder a todas tus preguntas y preocupaciones. No dudes en comunicarte con nosotros a través del siguiente formulario de contacto. Ya sea que necesites ayuda con un pedido, tengas preguntas sobre nuestros productos o simplemente desees obtener más información sobre nuestros servicios, estamos aquí para ayudarte en todo lo que podamos. Tu confianza en nosotros es invaluable, y haremos todo lo posible para garantizar que tu experiencia con nosotros sea lo más fluida y satisfactoria posible.
               </p>
 
@@ -108,7 +108,7 @@ const ContactForm = () => {
 
                 <div className="mt-4">
                   <button
-                    type="submit"
+                   onClick={handleSubmit}
                     className="inline-block w-full rounded-lg bg-[#854782] px-5 py-3 font-medium text-white sm:w-auto"
                   >
                     Enviar

@@ -1,9 +1,12 @@
-
-
-const Title = ({ Titulo = 'Componente' }) => {
+const Title = ({ Titulo = "Componente" }) => {
   return (
-    <div className="text-center text-5xl py-2 animate-pulse">
-      <p className="my-2">{Titulo} <span>↓</span></p>
+    <div
+      className="text-center text-5xl my-2 py-4 animate-pulse"
+      data-aos="fade-up"
+    >
+      <p className="my-2">
+        {Titulo} <span>↓</span>
+      </p>
     </div>
   );
 };
