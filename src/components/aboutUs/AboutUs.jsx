@@ -42,7 +42,7 @@ const AboutUs = () => {
               <div className="mt-10 lg:mt-0 md:justify-center md:text-center md:mx-auto"    data-aos="fade-left"
         data-aos-duration="1300"
         data-aos-anchor-placement="center-bottom">
-                <span className="block mb-4 text-center sm:mx-auto xl:text-[4em] md:text-center md:mx-auto text-4xl font-semibold text-[#854782] ">
+                <span className="block mb-4 text-center sm:mx-auto xl:text-[2em] md:text-center md:mx-auto text-4xl font-semibold text-[#854782] ">
                   Porque nosotros
                 </span>
                 <h2 className="md:mx-auto text-center sm:mx-auto md:text-center mb-5 xl:text-[text-3em] text-3xl uppercase font-bold text-[#854782]  sm:text-[40px]/[48px]">

@@ -18,14 +18,14 @@ function App() {
  
 
   return (
-    <main className="bg-neutral-200 text-xl text-purple-900">
+    <main className="bg-neutral-200 text-xl">
       <MainNavbar />
-      <section className="hero h-screen w-full my-auto mx-auto bg-gradient-to-r from-[#854782]  to-purple-600 text-white text-xl flex flex-col ">
+      <section className="hero h-screen w-full my-auto mx-auto bg-gradient-to-r from-[#854782]  to-purple-600 text-white text-xl flex flex-col " style={{backgroundImage: 'url("/imgs/heros/mainHero.webp")'}}>
         <div
           data-aos="fade-up"
           data-aos-duration="1500"
           data-aos-anchor-placement="center-bottom"
-          className=" backdrop-blur-sm mx-auto py-32 lg:flex flex-col my-auto items-center justify-center lg:h-screen lg:items-center"
+          className="backdrop-blur-sm mx-auto py-32 lg:flex flex-col my-auto items-center justify-center lg:h-screen lg:items-center"
         >
           <div className="my-auto mx-auto max-w-4xl text-center ">
             <h1 className="animate-pulse bg-gradient-to-r from-[#854782] via-[#b156ac] to-orange-400 bg-clip-text text-[4rem] font-extrabold text-transparent text-balance">
@@ -39,7 +39,7 @@ function App() {
               todas tus plataformas digitales.
             </p>
 
-            <div className="flex flex-wrap justify-center gap-7">
+            <div className="flex flex-wrap justify-center gap-7 mt-4">
               <a
                 href="https://wa.me/+50431597965"
                 className="rounded-xl bg-[#854782] p-4 flex items-center text-center items-center"
