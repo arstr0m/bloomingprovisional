@@ -20,9 +20,6 @@ const Footer = () => {
           </p>
 
           <ul className="mt-12 flex justify-center gap-6 md:gap-8">
-            
-            
-
             <li>
               <a
                 href="#"
@@ -46,7 +43,6 @@ const Footer = () => {
               </a>
             </li>
 
-          
             <li>
               <a
                 href="#"
@@ -56,7 +52,7 @@ const Footer = () => {
               >
                 <span className="sr-only">GitHub</span>
                 <svg
-                 className="h-6 w-6"
+                  className="h-6 w-6"
                   viewBox="-0.5 0 25 25"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"

@@ -17,7 +17,7 @@ function App() {
  
 
   return (
-    <main className="bg-neutral-200 text-xl">
+    <main className="bg-neutral-200 text-xl text-purple-900">
       <MainNavbar />
       <section className="hero h-screen w-full my-auto mx-auto bg-gradient-to-r from-[#854782]  to-purple-600 text-white text-xl flex flex-col ">
         <div

@@ -43,12 +43,10 @@ html {
 }
 
 body {
- 
   line-height: 2rem;
   margin: 0 auto;
   font-family: "sansumi";
   color: #854782;
-  background-color: #f1e9ee;
 }
 
 @media (prefers-color-scheme: dark) {
