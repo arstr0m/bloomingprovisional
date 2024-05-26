@@ -12,15 +12,15 @@ const AboutUs = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
-                      src="src/assets/abouts/about_2.webp"
-                      alt=""
+                      src="/src/assets/abouts/about_2.webp"
+                      alt="Personas haciendo contacto con Blooming Ideas"
                       className="w-full rounded-3xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
                       src="src/assets/abouts/about_1.webp"
-                      alt=""
+                      alt="Mujer utilizando una computadora"
                       className="w-full rounded-3xl"
                     />
                   </div>
@@ -29,7 +29,7 @@ const AboutUs = () => {
                   <div className=" my-4">
                     <img
                       src="src/assets/abouts/about_3.webp"
-                      alt=""
+                      alt="Personas sonriendo"
                       className="w-full rounded-3xl"
                     />
                    
