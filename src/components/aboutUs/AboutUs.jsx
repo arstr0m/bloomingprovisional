@@ -12,14 +12,14 @@ const AboutUs = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
-                      src="/public/abouts/about_2.webp"
+                      src="src/assets/abouts/about_2.webp"
                       alt=""
                       className="w-full rounded-3xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="/public/abouts/about_1.webp"
+                      src="src/assets/abouts/about_1.webp"
                       alt=""
                       className="w-full rounded-3xl"
                     />
@@ -28,7 +28,7 @@ const AboutUs = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className=" my-4">
                     <img
-                      src="/public/abouts/about_3.webp"
+                      src="src/assets/abouts/about_3.webp"
                       alt=""
                       className="w-full rounded-3xl"
                     />

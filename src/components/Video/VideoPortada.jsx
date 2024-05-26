@@ -1,4 +1,4 @@
-import VideoExito from "/public/videos/exito/exito.mp4";
+import VideoExito from "/src/assets/videos/exito/exito.mp4";
 const VideoPortada = () => {
   return (
     <>

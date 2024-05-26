@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="mx-auto max-w-5xl px-4 py-2 sm:px-6 lg:px-8">
           <div className="flex justify-center text-purple-200">
             <img
-              className="w-[10em]"
+              className="w-[10em] my-4"
               alt="Logo de la empresa Blooming Ideas, una mezcla de bombilla y flor de loto."
-              src="/src/imgs/logos/bloomingversion2.png"
+              src="src/assets/logos/bloomingversion1.png"
             ></img>
           </div>
 

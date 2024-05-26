@@ -1,5 +1,5 @@
-import Crucial from "/public/videos/impacto/crucial.mp4";
-import ImpactoNecesario from "/public/videos/impacto/impacto.mp4";
+import Crucial from "/src/assets/videos/impacto/crucial.mp4";
+import ImpactoNecesario from "/src/assets/videos/impacto/impacto.mp4";
 
 const Marca = () => {
   return (

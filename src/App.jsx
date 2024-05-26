@@ -94,20 +94,22 @@ function App() {
           data-aos-duration="1200"
           data-aos-anchor-placement="center-bottom"
         >
-          <h3 className="uppercase text-center text-4xl text-[#85478] ">
-            La mente detrás de Blooming Ideas
-          </h3>
+          
           <a
             href="https://www.instagram.com/bloomingideashn?igsh=ZmExaWdvNDFvazk="
             className="group block"
           >
             <img
-              src="/public/Profile/main.webp"
+              src="/src/assets/Profile/main.webp"
               alt=""
               className="h-[400px] aspect-square w-full rounded object-contain"
             />
 
             <div className="mt-3">
+             
+              <p className="text-center text-2xl">
+              Lic. en Comunicación y Publicidad con 7 años de experiencia en el campo del marketing digital y la comunicación estratégica. Me especializo en crear y optimizar contenido para audiencias específicas, maximizando el impacto y la visibilidad de las marcas.
+              </p>
               <p className="text-center text-2xl">
                 Una figura fundamental que te respaldará en la mejora de tu
                 negocio. Su compromiso con la excelencia y su capacidad para
@@ -115,6 +117,7 @@ function App() {
                 invaluable para cualquier emprendedor o empresario que busque
                 llevar su negocio al siguiente nivel.
               </p>
+
             </div>
           </a>
         </div>

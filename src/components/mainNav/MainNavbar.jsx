@@ -1,5 +1,5 @@
 import NavLinks from "./NavLinks";
-import React, { useState } from "react";
+import  { useState } from "react";
 const MainNavbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
@@ -11,7 +11,7 @@ const MainNavbar = () => {
               <span className="sr-only">Home</span>
               <img
                 className="max-w-[200px] h-[80px] relative my-2 left-8"
-                src="/src/imgs/logos/bloomingversion2.png"
+                src="src/assets/logos/bloomingversion2.png"
               ></img>
             </a>
           </div>
