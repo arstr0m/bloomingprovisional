@@ -11,7 +11,7 @@ const MainNavbar = () => {
               <span className="sr-only">Home</span>
               <img
                 className="max-w-[200px] h-[100px] relative my-2 left-8"
-                src="/public/imgs/imgs/logos/bloomingversion1.png"
+                src="/imgs/imgs/logos/bloomingversion1.png"
               ></img>
             </a>
           </div>
