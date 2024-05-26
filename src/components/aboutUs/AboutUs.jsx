@@ -2,7 +2,7 @@
 const AboutUs = () => {
   return (
     <>
-      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]  dark:bg-dark">
+      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] ">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between">
             <div className="w-full px-4 lg:w-6/12 hidden lg:block">

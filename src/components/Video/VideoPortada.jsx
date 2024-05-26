@@ -1,4 +1,4 @@
-import VideoExito from "/src/assets/videos/exito/exito.mp4";
+import VideoExito from "/assets/videos/exito/exito.mp4";
 const VideoPortada = () => {
   return (
     <>
@@ -32,7 +32,7 @@ const VideoPortada = () => {
                 Queremos verte triunfar
               </h2>
 
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4">
                 En Blooming Ideas, no solo tenemos objetivos, ¡tenemos una
                 misión! Estamos aquí para llevar tu presencia digital a nuevas
                 alturas, aumentar tu visibilidad en cada rincón de la web y
