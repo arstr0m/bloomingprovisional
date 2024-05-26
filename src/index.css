@@ -22,7 +22,7 @@ html {
   font-size: 62.5%;
 }
 .hero {
-  background-image: url("/imgs/heros/mainHero.webp");
+  background-image: url("./imgs/heros/mainHero.webp");
 }
 @keyframes logo-spin {
   from {
